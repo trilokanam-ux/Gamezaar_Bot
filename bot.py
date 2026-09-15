@@ -51,7 +51,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     text = (
         "👋 Welcome to Gamezaar!\n\n"
         "Your personal gaming hub for quick, casual play — right inside Telegram. "
-        "Explore game categories, learn more about us, or get support. New here? Just tap /board to begin."
+        "Explore game categories, learn more about us, or get support."
     )
     await update.message.reply_text(text=text, reply_markup=play_button())
 
